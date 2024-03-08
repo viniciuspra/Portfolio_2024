@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .default {
+    --background: hsl(0, 0%, 8%);
+    --card: hsl(0, 0%, 11%);
+    --card-stroke: hsl(0, 0%, 15%);
+    --muted: hsl(0, 0%, 75%);
+    --primary: hsl(11, 90%, 54%);
+    --button: hsl(10, 88%, 52%);
+    --button-stroke: hsl(11, 86%, 53%);
+  }
+  .blue {
+    --background: hsl(220, 15%, 8%);
+    --card: hsl(220, 20%, 11%);
+    --card-stroke: hsl(220, 25%, 15%);
+    --muted: hsl(0, 0%, 75%);
+    --primary: hsl(210, 90%, 40%);
+    --button: hsl(210, 80%, 45%);
+    --button-stroke: hsl(210, 80%, 35%);
+  }
+
+  .green {
+    --background: hsl(100, 15%, 8%);
+    --card: hsl(130, 20%, 11%);
+    --card-stroke: hsl(130, 25%, 15%);
+    --muted: hsl(0, 0%, 75%);
+    --primary: hsl(120, 90%, 40%);
+    --button: hsl(120, 80%, 45%);
+    --button-stroke: hsl(120, 80%, 35%);
+  }
+
+  .purple {
+    --background: hsl(280, 15%, 8%);
+    --card: hsl(280, 20%, 11%);
+    --card-stroke: hsl(280, 25%, 15%);
+    --muted: hsl(0, 0%, 75%);
+    --primary: hsl(270, 90%, 40%);
+    --button: hsl(270, 80%, 45%);
+    --button-stroke: hsl(270, 80%, 35%);
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background;
+  }
+}

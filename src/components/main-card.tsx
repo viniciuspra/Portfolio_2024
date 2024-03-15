@@ -1,5 +1,6 @@
 import person from "@/assets/person.png";
 import { Github, Plus } from "lucide-react";
+import cvPath from "@/assets/Currículo-Vinicius-Cascaes-Prá.pdf";
 
 export default function MainCard() {
   return (
@@ -29,7 +30,7 @@ export default function MainCard() {
             <div className="w-full flex justify-end md:inline-block">
               <button className="h-10 relative flex items-center bg-button border-1.5 border-button-stroke rounded-md shadow-cv-button hover:shadow-h-button transition-shadow">
                 <a
-                  href="../src/assets/Currículo-Vinicius-Cascaes-Prá.pdf"
+                  href={cvPath}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-r-1.5 p-3 border-background h-10 flex items-center text-xs md:text-base"

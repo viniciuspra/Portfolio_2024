@@ -62,9 +62,9 @@ export default function AboutContent() {
             <h1 className="text-xl font-semibold md:px-5 xl:w-fit w-full text-center">
               Certificado
             </h1>
-            <div className="w-full xl:w-fit">
+            <div className="w-full xl:w-fit bg-red-50 flex justify-center">
               <a
-                className="bg-background xl:w-fit xl:mx-0 mx-20 rounded-full md:px-5 px-2 py-3 border-1.5 border-card-stroke hover:border-primary items-center transition-colors cursor-pointer flex gap-3"
+                className="bg-background w-full xl:w-fit xl:mx-0 md:mx-20 rounded-full md:px-5 px-2 py-3 border-1.5 border-card-stroke hover:border-primary items-center transition-colors cursor-pointer flex gap-3"
                 href="https://app.rocketseat.com.br/certificates/04f7863d-eca9-4382-8b87-95963d73f175"
                 target="_blank"
               >

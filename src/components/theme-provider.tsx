@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
-export type Theme = "default" | "green" | "blue" | "green" | "purple";
+export type Theme = "default" | "red" | "green" | "purple";
 
 type ThemeProviderProps = {
   children: React.ReactNode;
@@ -33,7 +33,7 @@ export function ThemeProvider({
   useEffect(() => {
     const root = window.document.documentElement;
 
-    root.classList.remove("default", "orange", "blue", "green", "purple");
+    root.classList.remove("default", "red", "green", "purple");
 
     root.classList.add(theme);
   }, [theme]);

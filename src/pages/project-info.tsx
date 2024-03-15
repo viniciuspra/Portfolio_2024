@@ -19,20 +19,24 @@ export default function ProjectInfo() {
       >
         <ArrowLeft size={32} />
       </Link>
-      <div className="bg-card border-1.5 border-card-stroke hover:border-primary p-10 lg:py-14 rounded-lg shadow-md md:my-10 my-20">
+      <div className="bg-card border-1.5 border-card-stroke p-10 lg:py-14 rounded-lg shadow-md md:my-10 my-20">
         <div className="flex flex-col lg:flex-row gap-10 justify-between items-center">
-          <div className="flex flex-col gap-3 lg:w-2/3">
-            <h2 className="text-xl font-bold text-white">{project.subtitle}</h2>
-            <h1 className="text-3xl font-bold text-white">{project.title}</h1>
-            <p>{project.description}</p>
+          <div className="flex flex-col gap-5 lg:w-2/3">
+            <div>
+              <h2 className="text-lg font-semibold">{project.subtitle}</h2>
+              <h1 className="text-3xl font-bold text-white">{project.title}</h1>
+            </div>
+            <p className="text-justify leading-relaxed">{project.description}</p>
           </div>
           <div className="w-full lg:w-1/2">
-            <img
-              src={project.img}
-              alt={`foto da capa do projeto ${project.title}`}
-              className="rounded-lg shadow-md"
-              style={{ boxShadow: `0 15px 50px -6px ${project.color}` }}
-            />
+            <a href={project.img}>
+              <img
+                src={project.img}
+                alt={`foto da capa do projeto ${project.title}`}
+                className="rounded-lg shadow-md"
+                style={{ boxShadow: `0 15px 50px -6px ${project.color}` }}
+              />
+            </a>
           </div>
         </div>
         <div className="flex gap-4 items-center lg:justify-normal justify-center w-full mt-10">

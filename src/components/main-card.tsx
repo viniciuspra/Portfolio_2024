@@ -1,18 +1,21 @@
 import person from "@/assets/person.png";
 import { Github, Plus } from "lucide-react";
 import cvPath from "@/assets/Currículo-Vinicius-Cascaes-Prá.pdf";
+import { useTranslation } from "react-i18next";
 
 export default function MainCard() {
+  const { t } = useTranslation();
+
   return (
     <div className="flex md:flex-col flex-1 md:max-h-[600px] 2xl:min-h-[450px] 2xl:px-10 px-8 py-12 bg-card border-1.5 border-card-stroke rounded-lg gap-10 flex-col-reverse hover:border-primary transition-colors">
       <div className="flex items-center justify-between flex-col md:flex-row gap-4">
         <h2 className="font-semibold md:text-xl text-lg 2xl:text-2xl">
-          Desenvolvedor Web
+          {t("MAINdev")}
         </h2>
         <div className="bg-background border border-card-stroke gap-3 py-1 px-3 flex items-center rounded-full hover:border-primary transition-colors cursor-default">
           <div className="w-1 h-1 2xl:w-2 2xl:h-2 bg-green-500 rounded-full" />
           <p className="uppercase text-xs 2xl:text-base">
-            disponível para trabalho
+            {t("MAIN/FOOTERavailable")}
           </p>
         </div>
       </div>
@@ -21,11 +24,10 @@ export default function MainCard() {
           <h1 className="md:text-4xl text-3xl 2xl:text-5xl text-white font-bold">
             I'm Vinicius Cascaes
           </h1>
-          <p className="leading-relaxed md:text-base text-sm 2xl:text-lg">
-            Desenvolvedor web full stack, apaixonado por criar aplicações
-            modernas. <br /> Sempre em busca de novos desafios e oportunidades
-            para melhorar meu <br /> código.
-          </p>
+          <p
+            className="leading-relaxed md:text-base text-sm 2xl:text-lg"
+            dangerouslySetInnerHTML={{ __html: t("MAINdescription") }}
+          />
           <div className="flex items-center gap-4 text-white justify-center md:justify-normal md:flex-row-reverse">
             <div className="w-full flex justify-end md:inline-block">
               <button className="h-10 relative flex items-center bg-button border-1.5 border-button-stroke rounded-md shadow-cv-button hover:shadow-h-button transition-shadow">
@@ -35,7 +37,7 @@ export default function MainCard() {
                   rel="noopener noreferrer"
                   className="border-r-1.5 p-3 border-background h-10 flex items-center text-xs md:text-base"
                 >
-                  Visualizar CV
+                  {t("MAINresume")}
                 </a>{" "}
                 <Plus className="mx-2" size={20} />
                 <div className="absolute top-[-1px] left-1 right-1 h-0.5 bg-gradient-to-b from-button-stroke brightness-150 via-button rounded-md"></div>

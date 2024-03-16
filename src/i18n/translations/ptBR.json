@@ -1,0 +1,61 @@
+{
+  "translation": {
+    "MAINdev": "Desenvolvedor Web",
+    "MAINdescription": "<span class='text-primary'>Desenvolvedor web full-stack</span>, apaixonado por criar aplicações modernas. <br /> Sempre em busca de novos <span class='text-primary'>desafios</span> e <span class='text-primary'>oportunidades</span> para melhorar meu <br /> código.",
+    "MAIN/FOOTERavailable": "Disponível para trabalho",
+    "FOOTERportfolio": "Portfólio",
+    "MAINresume": "Ver Currículo",
+    "BUTTONAbout": "Sobre Mim",
+    "BUTTONProject": "Projetos",
+    "BUTTONContact": "Contato",
+    "ABOUTtitle": "Sobre <span class='text-primary'>mim",
+    "ABOUTdescription": "Olá! Eu sou <span class='text-primary'>Vinicius</span>, um desenvolvedor web full-stack júnior viciado em tecnologia e apaixonado por resolver quebra-cabeças digitais. Comecei essa jornada com um pé na porta, explorando as maravilhas do <span class='text-primary'>front-end</span>, e logo me vi mergulhando mais fundo no mundo da programação. <br /> <br /> No final de 2022, iniciei um curso <span class='text-primary'>full-stack</span> que foi como uma montanha-russa de aprendizado. Aprendi muitas coisas novas, desde criar <span class='text-primary'>interfaces</span> até lidar com <span class='text-primary'>servidores</span>. <br /> <br /> Estou sempre procurando aprender mais, seja cavando <span class='text-primary'>documentação</span>, ou até mesmo colocando a mão na massa com <span class='text-primary'>projetos</span> que me desafiam a sair da minha <span class='text-primary'>zona de conforto</span>. <br /> <br /> <span class='text-primary'>O que me motiva nesta jornada?</span> Não se trata apenas de escrever código, mas de fazer parte de algo maior. É saber que cada linha que escrevo pode fazer a diferença na vida de alguém, seja simplificando tarefas do dia a dia ou criando algo que inspire mudanças positivas. <br /> <br /> Sei que o caminho pela frente está repleto de <span class='text-primary'>desafios</span>, mas estou pronto para enfrentar tudo com a cabeça erguida. Estamos juntos nessa, vamos transformar o mundo da <span class='text-primary'>web!</span>",
+    "ABOUTcertificate": "Certificado",
+    "ABOUTcourseName": "Desenvolvimento Web",
+    "ABOUTcourseDate": "nov/22 - out/23",
+    "FORMname": "Nome",
+    "FORMemail": "Endereço de Email",
+    "FORMmessage": "Mensagem",
+    "FORMMsubmit": "Enviar",
+    "CONTACTtitle": "Entre em <span class='text-primary'>Contato</span>",
+    "CONTACTdescription": "Para entrar em contato, sinta-se à vontade para enviar um e-mail para <a href='mailto:vinicius.cascaesp@gmail.com' target='_blank' class='text-primary'>vinicius.cascaesp@gmail.com</a> ou preencher o formulário abaixo. <br /> Por favor, forneça as informações necessárias e deixe sua mensagem no campo de texto dedicado. <br /> Farei o meu melhor para responder o mais rápido possível.",
+    "projects": [
+      {
+        "id": 0,
+        "title": "Focus Timer 2.0",
+        "subtitle": "Aplicativo Pomodoro",
+        "description": "O Focus Timer 2.0 é uma ferramenta de gerenciamento de tempo baseada na técnica Pomodoro, projetada para ajudá-lo a manter o foco e a produtividade durante suas sessões de trabalho."
+      },
+      {
+        "id": 1,
+        "title": "FilmFanatic",
+        "subtitle": "Avaliação de Filmes",
+        "description": "FilmFanatic é um aplicativo que permite aos usuários registrar e avaliar os filmes que assistiram, fornecendo uma maneira organizada de acompanhar e revisitar suas experiências cinematográficas."
+      },
+      {
+        "id": 2,
+        "title": "facilita.ai",
+        "subtitle": "IA para Transcrição e Interação",
+        "description": "facilita.ai é uma plataforma que utiliza inteligência artificial para transcrever áudio e vídeo em texto, permitindo uma ampla gama de interações baseadas em texto com uma IA integrada."
+      },
+      {
+        "id": 3,
+        "title": "Rocketpay",
+        "subtitle": "Página de Pagamentos",
+        "description": "Rocketpay é um componente que simula o preenchimento de formulário de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM."
+      },
+      {
+        "id": 4,
+        "title": "Rocketnotes",
+        "subtitle": "Aplicativo de Notas",
+        "description": "Rocketnotes é um aplicativo de organização de notas, fornecendo uma maneira eficiente e acessível para os usuários gerenciarem suas notas pessoais e profissionais."
+      },
+      {
+        "id": 5,
+        "title": "Chirpify",
+        "subtitle": "Chat em Tempo Real",
+        "description": "Chirpify é uma plataforma de chat em tempo real que permite aos usuários se comunicarem instantaneamente, promovendo colaboração e conectividade em várias situações."
+      }
+    ]
+  }
+}

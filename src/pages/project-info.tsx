@@ -1,6 +1,8 @@
 import Tooltip from "@/components/tooltip";
 import { ProjectProps } from "@/data";
 import { ArrowLeft, Github, Globe } from "lucide-react";
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 
 interface StateProps {
@@ -8,13 +10,26 @@ interface StateProps {
 }
 
 export default function ProjectInfo() {
+  const { t } = useTranslation();
   const { state } = useLocation();
   const { project } = state as StateProps;
+  const [translatedTitle, setTranslatedTitle] = useState<string>("");
+  const [translatedSubtitle, setTranslatedSubtitle] = useState<string>("");
+  const [translatedDescriprion, setTranslatedDescriprion] =
+    useState<string>("");
+
+  useEffect(() => {
+    if (project) {
+      setTranslatedTitle(t(`projects.${project.id}.title`));
+      setTranslatedSubtitle(t(`projects.${project.id}.subtitle`));
+      setTranslatedDescriprion(t(`projects.${project.id}.description`));
+    }
+  }, [project, t]);
 
   return (
     <div className="bg-gradient-to-tr from-background to-card h-full flex flex-col justify-center p-5 md:p-10 rounded-lg border-1.5 border-card-stroke relative hover:border-1.5 hover:border-primary transition-all">
       <Link
-        to="/projetos"
+        to="/projects"
         className="absolute top-6 left-6 py-1 px-2 active:bg-white/10 active:scale-90 transition-all rounded-lg border-card-stroke hover:border-white border-1.5 text-white bg-primary hover:scale-105"
       >
         <ArrowLeft size={32} />
@@ -23,10 +38,14 @@ export default function ProjectInfo() {
         <div className="flex flex-col lg:flex-row gap-10 justify-between items-center">
           <div className="flex flex-col gap-5 lg:w-2/3">
             <div>
-              <h2 className="text-lg font-semibold">{project.subtitle}</h2>
-              <h1 className="text-3xl font-bold text-white">{project.title}</h1>
+              <h2 className="text-lg font-semibold">{translatedSubtitle}</h2>
+              <h1 className="text-3xl font-bold text-white">
+                {translatedTitle}
+              </h1>
             </div>
-            <p className="text-justify leading-relaxed">{project.description}</p>
+            <p className="text-justify leading-relaxed">
+              {translatedDescriprion}
+            </p>
           </div>
           <div className="w-full lg:w-1/2">
             <a href={project.img}>

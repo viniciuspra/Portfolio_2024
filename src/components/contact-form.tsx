@@ -1,11 +1,12 @@
 import { ValidationError, useForm } from "@formspree/react";
+import { useTranslation } from "react-i18next";
 
 export default function ContactForm() {
+  const { t } = useTranslation();
   const [state, handleSubmit] = useForm("mleqwrao");
   if (state.succeeded) {
     if (typeof window !== "undefined") {
-      window.alert("Obrigado por entrar em contato comigo!");
-      window.location.reload();
+      window.alert("Thank you for getting in touch with me!");
     }
     return null;
   }
@@ -17,22 +18,22 @@ export default function ContactForm() {
       >
         <div className="flex gap-4">
           <label htmlFor="name" className="flex flex-col gap-2 w-full">
-            <span className="font-bold text-lg">Name</span>
+            <span className="font-bold text-lg">{t("FORMname")}</span>
             <input
               id="name"
               type="name"
               name="name"
-              className="text-black w-full p-2"
+              className="text-white w-full p-2 bg-background rounded-lg"
             />
           </label>
 
           <label htmlFor="email" className="flex flex-col gap-2 w-full">
-            <span className="font-bold text-lg">Email Address</span>
+            <span className="font-bold text-lg">{t("FORMemail")}</span>
             <input
               id="email"
               type="email"
               name="email"
-              className="text-black w-full p-2"
+              className="text-white w-full p-2 bg-background rounded-lg"
             />
             <ValidationError
               prefix="Email"
@@ -43,11 +44,11 @@ export default function ContactForm() {
           </label>
         </div>
         <label htmlFor="message" className="flex flex-col gap-2">
-          <span className="font-bold text-lg">Message</span>
+          <span className="font-bold text-lg">{t("FORMmessage")}</span>
           <textarea
             id="message"
             name="message"
-            className="min-h-40 px-2 py-3 text-black"
+            className="min-h-40 px-2 py-3 text-white bg-background rounded-lg"
           />
         </label>
         <ValidationError

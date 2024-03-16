@@ -1,8 +1,11 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import person from "@/assets/person.png";
+import { useTranslation } from "react-i18next";
 
 export default function AboutContent() {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-card overflow-y-auto h-full rounded-lg border-1.5 md:px-16 md:pt-10 pt-16 pb-3 px-3 border-card-stroke relative hover:border-1.5 hover:border-primary transition-all">
       <Link
@@ -13,41 +16,15 @@ export default function AboutContent() {
       </Link>
       <div className="flex px-5 h-full flex-col xl:flex-row justify-center gap-10">
         <div className="md:space-y-7 space-y-2 2xl:space-y-10 flex flex-col justify-center py-10">
-          <h1 className="md:text-3xl text-2xl lg:text-5xl font-bold 2xl:text-6xl">
-            Sobre <span className="text-primary">mim</span>
-          </h1>
+          <h1
+            className="md:text-3xl text-2xl lg:text-5xl font-bold 2xl:text-6xl"
+            dangerouslySetInnerHTML={{ __html: t("ABOUTtitle") }}
+          />
           <div className="md:text-base text-xs 2xl:text-xl xl:text-lg">
-            <p className="leading-relaxed">
-              E aí! Sou o <span className="text-primary">Vinicius</span>, um dev
-              júnior <span className="text-primary">full-stack</span> viciado em
-              tecnologia e apaixonado por resolver quebra-cabeças digitais.
-              Comecei nessa jornada com o pé na porta, explorando as maravilhas
-              do <span className="text-primary">front-end</span>, e logo me vi
-              mergulhando cada vez mais fundo no mundo da programação. <br />{" "}
-              <br />
-              No final de 2022, comecei um curso{" "}
-              <span className="text-primary">full-stack</span> que foi tipo uma
-              montanha-russa de aprendizado. Aprendi muita coisa nova, desde
-              criar <span className="text-primary">interfaces</span> até lidar
-              com <span className="text-primary">servidores</span>. <br />{" "}
-              <br /> Tô sempre na busca de aprender mais, seja fuçando em
-              <span className="text-primary"> documentações</span>, ou até mesmo
-              botando a mão na massa em{" "}
-              <span className="text-primary">projetos</span> que me desafiam a
-              sair da <span className="text-primary">zona de conforto</span>.{" "}
-              <br /> <br />{" "}
-              <span className="text-primary">
-                O que me motiva nessa jornada?
-              </span>{" "}
-              Não é só escrever código, é fazer parte de algo maior. É saber que
-              cada linha que eu escrevo pode fazer a diferença na vida de
-              alguém, seja simplificando tarefas do dia a dia ou criando algo
-              que inspire mudanças positivas. <br /> <br /> Tô ligado que o
-              caminho pela frente é cheio de{" "}
-              <span className="text-primary">desafios</span>, mas tô pronto pra
-              encarar tudo de cabeça erguida. Tamo junto nessa, vamos
-              transformar o mundo da <span className="text-primary">web!</span>
-            </p>
+            <p
+              className="leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: t("ABOUTdescription") }}
+            />
           </div>
         </div>
         <div className="w-full flex flex-col items-center justify-center gap-20 mb-6">
@@ -60,7 +37,7 @@ export default function AboutContent() {
           </div>
           <div className="w-full flex flex-col items-center gap-7">
             <h1 className="text-xl font-semibold md:px-5 xl:w-fit w-full text-center">
-              Certificado
+              {t("ABOUTcertificate")}
             </h1>
             <div className="w-full xl:w-fit flex justify-center">
               <a
@@ -75,12 +52,12 @@ export default function AboutContent() {
                 />
                 <div>
                   <h3 className="text-white text-sm md:text-base xl:text-lg">
-                    Desenvolvimento Web
+                    {t("ABOUTcourseName")}
                   </h3>
                   <p className="text-sm md:text-base">Rocketseat</p>
                 </div>
                 <p className="flex flex-1 justify-end lg:text-base md:text-sm text-xs">
-                  nov/22 - out/23
+                  {t("ABOUTcourseDate")}
                 </p>
               </a>
             </div>

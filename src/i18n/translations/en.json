@@ -1,0 +1,61 @@
+{
+  "translation": {
+    "MAINdev": "Web Developer",
+    "MAINdescription": "<span class='text-primary'>Full-stack web developer</span>, passionate about creating modern applications. <br /> Always seeking new <span class='text-primary'>challenges</span> and <span class='text-primary'>opportunities</span> to improve my <br /> code.",
+    "MAIN/FOOTERavailable": "Available for work",
+    "FOOTERportfolio": "Portfolio",
+    "MAINresume": "View Resume",
+    "BUTTONAbout": "About Me",
+    "BUTTONProject": "Projects",
+    "BUTTONContact": "Contact",
+    "ABOUTtitle": "About <span class='text-primary'>me",
+    "ABOUTdescription": "Hey there! I'm <span class='text-primary'>Vinicius</span>, a junior <span class='text-primary'>full-stack</span> developer addicted to technology and passionate about solving digital puzzles. I started this journey with my foot in the door, exploring the wonders of the <span class='text-primary'>front-end</span>, and soon found myself diving deeper into the world of programming. <br /> <br /> At the end of 2022, I started a <span class='text-primary'>full-stack</span> course that was like a roller coaster of learning. I learned a lot of new things, from creating <span class='text-primary'>interfaces</span> to dealing with <span class='text-primary'>servers</span>. <br /> <br /> I'm always looking to learn more, whether it's digging through <span class='text-primary'>documentation</span>, or even getting my hands dirty with <span class='text-primary'>projects</span> that challenge me to step out of my <span class='text-primary'>comfort zone</span>. <br /> <br /> <span class='text-primary'>What motivates me on this journey?</span> It's not just about writing code, it's about being part of something bigger. It's knowing that every line I write can make a difference in someone's life, whether it's simplifying everyday tasks or creating something that inspires positive change. <br /> <br /> I know the road ahead is full of <span class='text-primary'>challenges</span>, but I'm ready to face it all with my head held high. We're in this together, let's transform the world of <span class='text-primary'>web!</span>",
+    "ABOUTcertificate": "Certificate",
+    "ABOUTcourseName": "Web Development",
+    "ABOUTcourseDate": "nov/22 - oct/23",
+    "FORMname": "Name",
+    "FORMemail": "Email Address",
+    "FORMmessage": "Message",
+    "FORMMsubmit": "Submit",
+    "CONTACTtitle": "Get in <span class='text-primary'>Touch</span>",
+    "CONTACTdescription": "To get in touch, feel free to send an email to <a href='mailto:vinicius.cascaesp@gmail.com' target='_blank' class='text-primary'> vinicius.cascaesp@gmail.com </a> or fill out the form below. <br /> Please provide the necessary information and leave your message in the dedicated text field. <br /> I will do my best to respond as soon as possible.",
+    "projects": [
+      {
+        "id": 0,
+        "title": "Focus Timer 2.0",
+        "subtitle": "Pomodoro App",
+        "description": "The Focus Timer 2.0 is a time management tool based on the Pomodoro technique, designed to help you stay focused and productive during your work sessions."
+      },
+      {
+        "id": 1,
+        "title": "FilmFanatic",
+        "subtitle": "Movie Rating",
+        "description": "FilmFanatic is an application that allows users to record and rate the movies they've watched, providing an organized way to keep track of and revisit their cinematic experiences."
+      },
+      {
+        "id": 2,
+        "title": "facilita.ai",
+        "subtitle": "AI for Transcription and Interaction",
+        "description": "facilita.ai is a platform that uses artificial intelligence to transcribe audio and video into text, enabling a wide range of text-based interactions with an integrated AI."
+      },
+      {
+        "id": 3,
+        "title": "Rocketpay",
+        "subtitle": "Payments Landing Page",
+        "description": "Rocketpay is a component that simulates the credit card form filling, where it's possible to add mask to inputs and update HTML elements via DOM."
+      },
+      {
+        "id": 4,
+        "title": "Rocketnotes",
+        "subtitle": "Notes App",
+        "description": "Rocketnotes is a note organization application, providing an efficient and accessible way for users to manage their personal and professional notes."
+      },
+      {
+        "id": 5,
+        "title": "Chirpify",
+        "subtitle": "Real-Time Chat",
+        "description": "Chirpify is a real-time chat platform that allows users to communicate instantly, promoting collaboration and connectivity in various situations."
+      }
+    ]
+  }
+}

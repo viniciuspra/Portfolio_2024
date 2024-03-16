@@ -19,19 +19,19 @@ export const router = createBrowserRouter([
         element: <MainContent />,
       },
       {
-        path: "/sobre",
+        path: "/about",
         element: <AboutContent />,
       },
       {
-        path: "/projetos",
+        path: "/projects",
         element: <ProjectsContent />,
       },
       {
-        path: "/projetos/:projectId",
+        path: "/projects/:projectId",
         element: <ProjectInfo />,
       },
       {
-        path: "/contato",
+        path: "/contact",
         element: <ContactContent />,
       },
     ],

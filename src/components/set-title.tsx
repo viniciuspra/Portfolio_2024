@@ -10,8 +10,8 @@ export default function SetTitle() {
 
     if (path === "/") {
       pageTitle += "";
-    } else if (path.startsWith("/projetos")) {
-      pageTitle += " | PROJETOS";
+    } else if (path.startsWith("/projects")) {
+      pageTitle += " | PROJECTS";
     } else {
       const paths = path.split("/");
       if (paths.length > 1) {

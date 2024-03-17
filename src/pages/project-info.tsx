@@ -64,7 +64,7 @@ export default function ProjectInfo() {
             target="_blank"
             className="hover:bg-transparent bg-primary text-white transition-colors rounded-full border-1.5 border-transparent hover:border-primary hover:border-dashed"
           >
-            <Tooltip tooltip="Site" className="w-full h-full p-3">
+            <Tooltip tooltip={t("BUTTONweb")} className="w-full h-full p-3">
               <Globe />
             </Tooltip>
           </a>

@@ -8,6 +8,7 @@
     "BUTTONAbout": "About Me",
     "BUTTONProject": "Projects",
     "BUTTONContact": "Contact",
+    "BUTTONweb": "website",
     "ABOUTtitle": "About <span class='text-primary'>me",
     "ABOUTdescription": "Hey there! I'm <span class='text-primary'>Vinicius</span>, a junior <span class='text-primary'>full-stack</span> developer addicted to technology and passionate about solving digital puzzles. I hit the ground running on this journey, exploring the wonders of <span class='text-primary'>front-end development</span>, and quickly found myself diving deeper into the world of programming. <br /><br /> Towards the end of 2022, I enrolled in a <span class='text-primary'>full-stack</span> course that was a whirlwind of learning experiences. I acquired a plethora of new skills, from crafting <span class='text-primary'>user interfaces</span> to managing <span class='text-primary'>servers</span>. <br /><br /> I'm always eager to broaden my horizons, whether it's through delving into <span class='text-primary'>documentation</span> or diving into <span class='text-primary'>projects</span> that challenge me outside of my <span class='text-primary'>comfort zone</span>. <br /><br /> <span class='text-primary'>What drives me on this journey?</span> It's more than just writing code; it's about contributing to something greater. It's knowing that each line I write has the potential to impact someone's life, whether it simplifies daily tasks or fosters positive change. <br /><br /> I'm well aware that <span class='text-primary'>challenges</span> lie ahead, but I'm prepared to tackle them head-on with confidence. Together, let's embark on this journey and reshape the landscape of the <span class='text-primary'>web</span>!",
     "ABOUTcertificate": "Certificate",
@@ -55,6 +56,18 @@
         "title": "Chirpify",
         "subtitle": "Real-Time Chat",
         "description": "Chirpify is a real-time chat platform that allows users to communicate instantly, promoting collaboration and connectivity in various situations."
+      },
+      {
+        "id": 6,
+        "title": "FoodExplorer",
+        "subtitle": "Fictional Restaurant App",
+        "description": "FoodExplorer is an interactive menu app for a fictional restaurant, where users can explore a variety of delicious dishes. Browse through the menu items, discover new flavors, and place orders directly through the app. Experience a unique culinary journey with FoodExplorer!"
+      },
+      {
+        "id": 7,
+        "title": "GitFav",
+        "subtitle": "Github User Favorites App",
+        "description": "GitFav is designed to enable users to favorite GitHub users."
       }
     ]
   }

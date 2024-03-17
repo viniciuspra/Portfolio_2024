@@ -4,6 +4,8 @@ import facilitaAi from "@/assets/facilita-ai-project.png";
 import rocketpay from "@/assets/rocketpay-project.png";
 import rocketnotes from "@/assets/rocketnotes-project.png";
 import chirpify from "@/assets/Chirpify.png";
+import foodExplorer from "@/assets/FoodExplorer.png";
+import GitFav from "@/assets/GitFav.png";
 
 export interface ProjectProps {
   id: number;
@@ -89,5 +91,29 @@ export const projects: ProjectProps[] = [
     url: "https://chirpify.netlify.app/",
     url_github: "https://github.com/viniciuspra/Chirpify-chat-client",
     color: "#1F2232",
+  },
+  {
+    id: 6,
+    category: "FullStack",
+    img: foodExplorer,
+    title: "FoodExplorer",
+    subtitle: "Aplicativo de restaurantes fictício",
+    description:
+      "O FoodExplorer é um aplicativo de menu interativo para um restaurante fictício, onde os usuários podem explorar uma variedade de pratos deliciosos. Navegue pelos itens do menu, descubra novos sabores e faça pedidos diretamente pelo aplicativo. Experimente uma experiência gastronômica única com o FoodExplorer!",
+    url: "https://foodexplorerpro.netlify.app/",
+    url_github: "https://github.com/viniciuspra/FoodExplorer",
+    color: "#061A22",
+  },
+  {
+    id: 7,
+    category: "FullStack",
+    img: GitFav,
+    title: "GitFav",
+    subtitle: "Aplicativo de Favoritar Usuários do GitHub",
+    description:
+      "GitFav foi projetado para permitir aos usuários favoritar usuários do GitHub.",
+    url: "https://viniciuspra.github.io/GitFav/",
+    url_github: "https://github.com/viniciuspra/GitFav",
+    color: "#17607D",
   },
 ];

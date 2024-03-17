@@ -8,6 +8,7 @@
     "BUTTONAbout": "Sobre Mim",
     "BUTTONProject": "Projetos",
     "BUTTONContact": "Contato",
+    "BUTTONweb": "site",
     "ABOUTtitle": "Sobre <span class='text-primary'>mim",
     "ABOUTdescription": "Olá! Eu sou <span class='text-primary'>Vinicius</span>, um desenvolvedor web full-stack júnior viciado em tecnologia e apaixonado por resolver quebra-cabeças digitais. Comecei essa jornada com um pé na porta, explorando as maravilhas do <span class='text-primary'>front-end</span>, e logo me vi mergulhando mais fundo no mundo da programação. <br /> <br /> No final de 2022, iniciei um curso <span class='text-primary'>full-stack</span> que foi como uma montanha-russa de aprendizado. Aprendi muitas coisas novas, desde criar <span class='text-primary'>interfaces</span> até lidar com <span class='text-primary'>servidores</span>. <br /> <br /> Estou sempre procurando aprender mais, seja cavando <span class='text-primary'>documentação</span>, ou até mesmo colocando a mão na massa com <span class='text-primary'>projetos</span> que me desafiam a sair da minha <span class='text-primary'>zona de conforto</span>. <br /> <br /> <span class='text-primary'>O que me motiva nesta jornada?</span> Não se trata apenas de escrever código, mas de fazer parte de algo maior. É saber que cada linha que escrevo pode fazer a diferença na vida de alguém, seja simplificando tarefas do dia a dia ou criando algo que inspire mudanças positivas. <br /> <br /> Sei que o caminho pela frente está repleto de <span class='text-primary'>desafios</span>, mas estou pronto para enfrentar tudo com a cabeça erguida. Estamos juntos nessa, vamos transformar o mundo da <span class='text-primary'>web!</span>",
     "ABOUTcertificate": "Certificado",
@@ -55,6 +56,18 @@
         "title": "Chirpify",
         "subtitle": "Chat em Tempo Real",
         "description": "Chirpify é uma plataforma de chat em tempo real que permite aos usuários se comunicarem instantaneamente, promovendo colaboração e conectividade em várias situações."
+      },
+      {
+        "id": 6,
+        "title": "FoodExplorer",
+        "subtitle": "Aplicativo de restaurantes fictício",
+        "description": "O FoodExplorer é um aplicativo de menu interativo para um restaurante fictício, onde os usuários podem explorar uma variedade de pratos deliciosos. Navegue pelos itens do menu, descubra novos sabores e faça pedidos diretamente pelo aplicativo. Experimente uma experiência gastronômica única com o FoodExplorer!"
+      },
+      {
+        "id": 7,
+        "title": "GitFav",
+        "subtitle": "Aplicativo de Favoritar Usuários do GitHub",
+        "description": "GitFav foi projetado para permitir aos usuários favoritar usuários do GitHub."
       }
     ]
   }
